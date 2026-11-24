@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -g3 -pthread -c
 LDFLAGS = -pthread
 
-OBJS = main.o log.o conveyor.o 
+OBJS = main.o log.o conveyor.o producer.o
 PROGRAM = carassembly
 
 $(PROGRAM) : $(OBJS)
@@ -16,6 +16,9 @@ log.o : log.cpp log.h car_assembly.h
 
 conveyor.o : conveyor.cpp conveyor.h shared.h log.h
 	$(CXX) $(CXXFLAGS) conveyor.cpp
+
+producer.o : producer.cpp producer.h conveyor.h shared.h
+	$(CXX) $(CXXFLAGS) producer.cpp
 
 clean: 
 	rm -f *.o $(PROGRAM)
