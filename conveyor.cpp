@@ -39,7 +39,7 @@ bool addBody(BodyConveyor *conveyor, BodyType type) {
     
     // Waiting when caras are needed; Belt/type is full
     while(conveyor->totalProduced < conveyor->carLimit && 
-        (conveyor->bodies.size() > BODY_CONVEYOR_MAX || 
+        (conveyor->bodies.size() >= BODY_CONVEYOR_MAX || 
         conveyor->inQueue[type] >= BODY_TYPE_MAX[type])) {
         pthread_cond_wait(&conveyor->roomForType[type], &conveyor->lock);
     }

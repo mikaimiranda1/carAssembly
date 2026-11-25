@@ -1,0 +1,408 @@
+Body_conveyor: 1 SEDAN + 0 SUV = 1. Added Sedan body. Produced: 1 SEDAN + 0 SUV = 1 in 0.000 s.
+Body_conveyor: 0 SEDAN + 0 SUV = 0. AquaCoat consumed Sedan body.  AquaCoat totals: 1 SEDAN + 0 SUV = 1 consumed in 0.000 s.
+Body_conveyor: 0 SEDAN + 1 SUV = 1. Added SUV body. Produced: 1 SEDAN + 1 SUV = 2 in 0.000 s.
+Body_conveyor: 0 SEDAN + 0 SUV = 0. PrimeSpray consumed SUV body.  PrimeSpray totals: 0 SEDAN + 1 SUV = 1 consumed in 0.000 s.
+Body_conveyor: 1 SEDAN + 0 SUV = 1. Added Sedan body. Produced: 2 SEDAN + 1 SUV = 3 in 0.004 s.
+Body_conveyor: 1 SEDAN + 1 SUV = 2. Added SUV body. Produced: 2 SEDAN + 2 SUV = 4 in 0.004 s.
+Body_conveyor: 2 SEDAN + 1 SUV = 3. Added Sedan body. Produced: 3 SEDAN + 2 SUV = 5 in 0.008 s.
+Body_conveyor: 2 SEDAN + 2 SUV = 4. Added SUV body. Produced: 3 SEDAN + 3 SUV = 6 in 0.008 s.
+Body_conveyor: 2 SEDAN + 3 SUV = 5. Added SUV body. Produced: 3 SEDAN + 4 SUV = 7 in 0.012 s.
+Body_conveyor: 3 SEDAN + 3 SUV = 6. Added Sedan body. Produced: 4 SEDAN + 4 SUV = 8 in 0.012 s.
+Body_conveyor: 3 SEDAN + 4 SUV = 7. Added SUV body. Produced: 4 SEDAN + 5 SUV = 9 in 0.016 s.
+Body_conveyor: 4 SEDAN + 4 SUV = 8. Added Sedan body. Produced: 5 SEDAN + 5 SUV = 10 in 0.016 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.020 s, queue size: 1
+Body_conveyor: 3 SEDAN + 4 SUV = 7. AquaCoat consumed Sedan body.  AquaCoat totals: 2 SEDAN + 0 SUV = 2 consumed in 0.020 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.020 s, queue size: 0, total finished: 1
+Paint_conveyor: produced and added PrimeSpraySUV in 0.020 s, queue size: 1
+Body_conveyor: 3 SEDAN + 3 SUV = 6. PrimeSpray consumed SUV body.  PrimeSpray totals: 0 SEDAN + 2 SUV = 2 consumed in 0.020 s.
+Body_conveyor: 3 SEDAN + 4 SUV = 7. Added SUV body. Produced: 5 SEDAN + 6 SUV = 11 in 0.020 s.
+Body_conveyor: 4 SEDAN + 4 SUV = 8. Added Sedan body. Produced: 6 SEDAN + 6 SUV = 12 in 0.021 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.022 s, queue size: 0, total finished: 2
+Body_conveyor: 4 SEDAN + 5 SUV = 9. Added SUV body. Produced: 6 SEDAN + 7 SUV = 13 in 0.024 s.
+Body_conveyor: 5 SEDAN + 5 SUV = 10. Added Sedan body. Produced: 7 SEDAN + 7 SUV = 14 in 0.025 s.
+Body_conveyor: 5 SEDAN + 6 SUV = 11. Added SUV body. Produced: 7 SEDAN + 8 SUV = 15 in 0.029 s.
+Body_conveyor: 6 SEDAN + 6 SUV = 12. Added Sedan body. Produced: 8 SEDAN + 8 SUV = 16 in 0.029 s.
+Body_conveyor: 7 SEDAN + 6 SUV = 13. Added Sedan body. Produced: 9 SEDAN + 8 SUV = 17 in 0.033 s.
+Body_conveyor: 8 SEDAN + 6 SUV = 14. Added Sedan body. Produced: 10 SEDAN + 8 SUV = 18 in 0.037 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.040 s, queue size: 1
+Body_conveyor: 7 SEDAN + 6 SUV = 13. AquaCoat consumed Sedan body.  AquaCoat totals: 3 SEDAN + 0 SUV = 3 consumed in 0.040 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.040 s, queue size: 2
+Body_conveyor: 7 SEDAN + 5 SUV = 12. PrimeSpray consumed SUV body.  PrimeSpray totals: 0 SEDAN + 3 SUV = 3 consumed in 0.040 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.040 s, queue size: 1, total finished: 3
+Body_conveyor: 7 SEDAN + 6 SUV = 13. Added SUV body. Produced: 10 SEDAN + 9 SUV = 19 in 0.040 s.
+Body_conveyor: 8 SEDAN + 6 SUV = 14. Added Sedan body. Produced: 11 SEDAN + 9 SUV = 20 in 0.041 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.042 s, queue size: 0, total finished: 4
+Body_conveyor: 9 SEDAN + 6 SUV = 15. Added Sedan body. Produced: 12 SEDAN + 9 SUV = 21 in 0.045 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 13 SEDAN + 9 SUV = 22 in 0.049 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.060 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 3 SEDAN + 1 SUV = 4 consumed in 0.060 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.060 s, queue size: 0, total finished: 5
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 14 SEDAN + 9 SUV = 23 in 0.060 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.060 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 1 SEDAN + 3 SUV = 4 consumed in 0.060 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 14 SEDAN + 10 SUV = 24 in 0.060 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.062 s, queue size: 0, total finished: 6
+Paint_conveyor: produced and added AquaCoatSUV in 0.080 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 3 SEDAN + 2 SUV = 5 consumed in 0.080 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.080 s, queue size: 0, total finished: 7
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 15 SEDAN + 10 SUV = 25 in 0.080 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.081 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 2 SEDAN + 3 SUV = 5 consumed in 0.081 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 15 SEDAN + 11 SUV = 26 in 0.081 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.082 s, queue size: 0, total finished: 8
+Paint_conveyor: produced and added AquaCoatSUV in 0.100 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 3 SEDAN + 3 SUV = 6 consumed in 0.100 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.100 s, queue size: 0, total finished: 9
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 15 SEDAN + 12 SUV = 27 in 0.101 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.101 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 3 SEDAN + 3 SUV = 6 consumed in 0.101 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 16 SEDAN + 12 SUV = 28 in 0.101 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.103 s, queue size: 0, total finished: 10
+Paint_conveyor: produced and added AquaCoatSUV in 0.121 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 3 SEDAN + 4 SUV = 7 consumed in 0.121 s.
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 17 SEDAN + 12 SUV = 29 in 0.121 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.121 s, queue size: 0, total finished: 11
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.121 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 4 SEDAN + 3 SUV = 7 consumed in 0.121 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 17 SEDAN + 13 SUV = 30 in 0.121 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.123 s, queue size: 0, total finished: 12
+Paint_conveyor: produced and added AquaCoatSUV in 0.141 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 3 SEDAN + 5 SUV = 8 consumed in 0.141 s.
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 18 SEDAN + 13 SUV = 31 in 0.141 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.141 s, queue size: 0, total finished: 13
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.141 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 5 SEDAN + 3 SUV = 8 consumed in 0.141 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 18 SEDAN + 14 SUV = 32 in 0.141 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.143 s, queue size: 0, total finished: 14
+Paint_conveyor: produced and added AquaCoatSUV in 0.161 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 4 SEDAN + 5 SUV = 9 consumed in 0.161 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 19 SEDAN + 14 SUV = 33 in 0.161 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.161 s, queue size: 0, total finished: 15
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.161 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 6 SEDAN + 3 SUV = 9 consumed in 0.161 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.163 s, queue size: 0, total finished: 16
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 20 SEDAN + 14 SUV = 34 in 0.165 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.181 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 4 SEDAN + 6 SUV = 10 consumed in 0.181 s.
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 21 SEDAN + 14 SUV = 35 in 0.181 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.181 s, queue size: 0, total finished: 17
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.181 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 7 SEDAN + 3 SUV = 10 consumed in 0.181 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 21 SEDAN + 15 SUV = 36 in 0.181 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.183 s, queue size: 0, total finished: 18
+Paint_conveyor: produced and added AquaCoatSUV in 0.201 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 5 SEDAN + 6 SUV = 11 consumed in 0.201 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.201 s, queue size: 0, total finished: 19
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 22 SEDAN + 15 SUV = 37 in 0.201 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.201 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 8 SEDAN + 3 SUV = 11 consumed in 0.201 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.203 s, queue size: 0, total finished: 20
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 23 SEDAN + 15 SUV = 38 in 0.205 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.221 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 6 SEDAN + 6 SUV = 12 consumed in 0.221 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.221 s, queue size: 0, total finished: 21
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 24 SEDAN + 15 SUV = 39 in 0.221 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.221 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 8 SEDAN + 4 SUV = 12 consumed in 0.221 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 24 SEDAN + 16 SUV = 40 in 0.221 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.223 s, queue size: 0, total finished: 22
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.241 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 7 SEDAN + 6 SUV = 13 consumed in 0.241 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.241 s, queue size: 0, total finished: 23
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 25 SEDAN + 16 SUV = 41 in 0.241 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.241 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 8 SEDAN + 5 SUV = 13 consumed in 0.241 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 25 SEDAN + 17 SUV = 42 in 0.241 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.243 s, queue size: 0, total finished: 24
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.261 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 7 SEDAN + 7 SUV = 14 consumed in 0.261 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.261 s, queue size: 0, total finished: 25
+Body_conveyor: 11 SEDAN + 5 SUV = 16. Added Sedan body. Produced: 26 SEDAN + 17 SUV = 43 in 0.261 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.261 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 9 SEDAN + 5 SUV = 14 consumed in 0.261 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 26 SEDAN + 18 SUV = 44 in 0.261 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.263 s, queue size: 0, total finished: 26
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.281 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 10 SEDAN + 5 SUV = 15 consumed in 0.281 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.281 s, queue size: 0, total finished: 27
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 27 SEDAN + 18 SUV = 45 in 0.281 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.281 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 7 SEDAN + 8 SUV = 15 consumed in 0.281 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 27 SEDAN + 19 SUV = 46 in 0.281 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.283 s, queue size: 0, total finished: 28
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.301 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 11 SEDAN + 5 SUV = 16 consumed in 0.301 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.301 s, queue size: 0, total finished: 29
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 28 SEDAN + 19 SUV = 47 in 0.301 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.301 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 7 SEDAN + 9 SUV = 16 consumed in 0.301 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 28 SEDAN + 20 SUV = 48 in 0.301 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.304 s, queue size: 0, total finished: 30
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.322 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 12 SEDAN + 5 SUV = 17 consumed in 0.322 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 29 SEDAN + 20 SUV = 49 in 0.322 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.322 s, queue size: 0, total finished: 31
+Paint_conveyor: produced and added AquaCoatSUV in 0.322 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 8 SEDAN + 9 SUV = 17 consumed in 0.322 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.324 s, queue size: 0, total finished: 32
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 30 SEDAN + 20 SUV = 50 in 0.326 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.342 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 13 SEDAN + 5 SUV = 18 consumed in 0.342 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.342 s, queue size: 0, total finished: 33
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 31 SEDAN + 20 SUV = 51 in 0.342 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.342 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 8 SEDAN + 10 SUV = 18 consumed in 0.342 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 31 SEDAN + 21 SUV = 52 in 0.342 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.344 s, queue size: 0, total finished: 34
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.362 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 14 SEDAN + 5 SUV = 19 consumed in 0.362 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.362 s, queue size: 0, total finished: 35
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 32 SEDAN + 21 SUV = 53 in 0.362 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.362 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 9 SEDAN + 10 SUV = 19 consumed in 0.362 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.364 s, queue size: 0, total finished: 36
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 33 SEDAN + 21 SUV = 54 in 0.366 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.382 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 15 SEDAN + 5 SUV = 20 consumed in 0.382 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.382 s, queue size: 0, total finished: 37
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 34 SEDAN + 21 SUV = 55 in 0.382 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.382 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 9 SEDAN + 11 SUV = 20 consumed in 0.382 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 34 SEDAN + 22 SUV = 56 in 0.382 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.384 s, queue size: 0, total finished: 38
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.402 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 16 SEDAN + 5 SUV = 21 consumed in 0.402 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 35 SEDAN + 22 SUV = 57 in 0.402 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.402 s, queue size: 0, total finished: 39
+Paint_conveyor: produced and added AquaCoatSUV in 0.402 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 9 SEDAN + 12 SUV = 21 consumed in 0.402 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 35 SEDAN + 23 SUV = 58 in 0.402 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.404 s, queue size: 0, total finished: 40
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.422 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 17 SEDAN + 5 SUV = 22 consumed in 0.422 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 36 SEDAN + 23 SUV = 59 in 0.422 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.422 s, queue size: 0, total finished: 41
+Paint_conveyor: produced and added AquaCoatSUV in 0.422 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 9 SEDAN + 13 SUV = 22 consumed in 0.422 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 36 SEDAN + 24 SUV = 60 in 0.422 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.424 s, queue size: 0, total finished: 42
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.442 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 18 SEDAN + 5 SUV = 23 consumed in 0.442 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.442 s, queue size: 2
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.442 s, queue size: 1, total finished: 43
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 37 SEDAN + 24 SUV = 61 in 0.442 s.
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 9 SEDAN + 14 SUV = 23 consumed in 0.442 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 37 SEDAN + 25 SUV = 62 in 0.442 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.444 s, queue size: 0, total finished: 44
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.462 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 19 SEDAN + 5 SUV = 24 consumed in 0.462 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.462 s, queue size: 0, total finished: 45
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 38 SEDAN + 25 SUV = 63 in 0.462 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.462 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 9 SEDAN + 15 SUV = 24 consumed in 0.462 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 38 SEDAN + 26 SUV = 64 in 0.462 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.464 s, queue size: 0, total finished: 46
+Paint_conveyor: produced and added AquaCoatSUV in 0.482 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 10 SEDAN + 15 SUV = 25 consumed in 0.482 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.482 s, queue size: 0, total finished: 47
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 39 SEDAN + 26 SUV = 65 in 0.482 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.482 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 20 SEDAN + 5 SUV = 25 consumed in 0.482 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.484 s, queue size: 0, total finished: 48
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 40 SEDAN + 26 SUV = 66 in 0.486 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.502 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 11 SEDAN + 15 SUV = 26 consumed in 0.502 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.502 s, queue size: 0, total finished: 49
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 41 SEDAN + 26 SUV = 67 in 0.502 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.502 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 20 SEDAN + 6 SUV = 26 consumed in 0.502 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 41 SEDAN + 27 SUV = 68 in 0.503 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.504 s, queue size: 0, total finished: 50
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.522 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 12 SEDAN + 15 SUV = 27 consumed in 0.522 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.522 s, queue size: 0, total finished: 51
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 42 SEDAN + 27 SUV = 69 in 0.523 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.523 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 21 SEDAN + 6 SUV = 27 consumed in 0.523 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.525 s, queue size: 0, total finished: 52
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 43 SEDAN + 27 SUV = 70 in 0.527 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.543 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 13 SEDAN + 15 SUV = 28 consumed in 0.543 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.543 s, queue size: 0, total finished: 53
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 44 SEDAN + 27 SUV = 71 in 0.543 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.543 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 21 SEDAN + 7 SUV = 28 consumed in 0.543 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 44 SEDAN + 28 SUV = 72 in 0.543 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.545 s, queue size: 0, total finished: 54
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.563 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 14 SEDAN + 15 SUV = 29 consumed in 0.563 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 45 SEDAN + 28 SUV = 73 in 0.563 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.563 s, queue size: 0, total finished: 55
+Paint_conveyor: produced and added PrimeSpraySUV in 0.563 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 21 SEDAN + 8 SUV = 29 consumed in 0.563 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 45 SEDAN + 29 SUV = 74 in 0.563 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.565 s, queue size: 0, total finished: 56
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.583 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 15 SEDAN + 15 SUV = 30 consumed in 0.583 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.583 s, queue size: 0, total finished: 57
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 46 SEDAN + 29 SUV = 75 in 0.583 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.583 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 21 SEDAN + 9 SUV = 30 consumed in 0.583 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 46 SEDAN + 30 SUV = 76 in 0.583 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.585 s, queue size: 0, total finished: 58
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.603 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 16 SEDAN + 15 SUV = 31 consumed in 0.603 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.603 s, queue size: 0, total finished: 59
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 47 SEDAN + 30 SUV = 77 in 0.603 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.603 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 21 SEDAN + 10 SUV = 31 consumed in 0.603 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 47 SEDAN + 31 SUV = 78 in 0.603 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.605 s, queue size: 0, total finished: 60
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.623 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 17 SEDAN + 15 SUV = 32 consumed in 0.623 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 48 SEDAN + 31 SUV = 79 in 0.623 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.623 s, queue size: 0, total finished: 61
+Paint_conveyor: produced and added PrimeSpraySUV in 0.623 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 21 SEDAN + 11 SUV = 32 consumed in 0.623 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 48 SEDAN + 32 SUV = 80 in 0.623 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.625 s, queue size: 0, total finished: 62
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.643 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 18 SEDAN + 15 SUV = 33 consumed in 0.643 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.643 s, queue size: 0, total finished: 63
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 49 SEDAN + 32 SUV = 81 in 0.643 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.643 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 22 SEDAN + 11 SUV = 33 consumed in 0.643 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.645 s, queue size: 0, total finished: 64
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 50 SEDAN + 32 SUV = 82 in 0.647 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.663 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 19 SEDAN + 15 SUV = 34 consumed in 0.663 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.663 s, queue size: 0, total finished: 65
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 51 SEDAN + 32 SUV = 83 in 0.663 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.663 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 22 SEDAN + 12 SUV = 34 consumed in 0.663 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 51 SEDAN + 33 SUV = 84 in 0.663 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.665 s, queue size: 0, total finished: 66
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.683 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 20 SEDAN + 15 SUV = 35 consumed in 0.683 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 52 SEDAN + 33 SUV = 85 in 0.683 s.
+Paint_conveyor: produced and added PrimeSpraySUV in 0.683 s, queue size: 2
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 23 SEDAN + 12 SUV = 35 consumed in 0.683 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.683 s, queue size: 1, total finished: 67
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.685 s, queue size: 0, total finished: 68
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 53 SEDAN + 33 SUV = 86 in 0.687 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.703 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 21 SEDAN + 15 SUV = 36 consumed in 0.703 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.703 s, queue size: 0, total finished: 69
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 54 SEDAN + 33 SUV = 87 in 0.703 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.703 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. PrimeSpray consumed SUV body.  PrimeSpray totals: 23 SEDAN + 13 SUV = 36 consumed in 0.703 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 54 SEDAN + 34 SUV = 88 in 0.703 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.705 s, queue size: 0, total finished: 70
+Paint_conveyor: produced and added PrimeSpraySUV in 0.723 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 24 SEDAN + 13 SUV = 37 consumed in 0.723 s.
+Paint_conveyor: removed and finished PrimeSpraySUV in 0.724 s, queue size: 0, total finished: 71
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 55 SEDAN + 34 SUV = 89 in 0.724 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.724 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 21 SEDAN + 16 SUV = 37 consumed in 0.724 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 55 SEDAN + 35 SUV = 90 in 0.724 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.726 s, queue size: 0, total finished: 72
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.744 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 25 SEDAN + 13 SUV = 38 consumed in 0.744 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.744 s, queue size: 0, total finished: 73
+Paint_conveyor: produced and added AquaCoatSUV in 0.744 s, queue size: 1
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 56 SEDAN + 35 SUV = 91 in 0.744 s.
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 21 SEDAN + 17 SUV = 38 consumed in 0.744 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 56 SEDAN + 36 SUV = 92 in 0.744 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.746 s, queue size: 0, total finished: 74
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.764 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 26 SEDAN + 13 SUV = 39 consumed in 0.764 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 57 SEDAN + 36 SUV = 93 in 0.764 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.765 s, queue size: 2
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 21 SEDAN + 18 SUV = 39 consumed in 0.765 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.765 s, queue size: 1, total finished: 75
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 57 SEDAN + 37 SUV = 94 in 0.765 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.767 s, queue size: 0, total finished: 76
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.784 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 27 SEDAN + 13 SUV = 40 consumed in 0.784 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.784 s, queue size: 0, total finished: 77
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 58 SEDAN + 37 SUV = 95 in 0.784 s.
+Paint_conveyor: produced and added AquaCoatSUV in 0.785 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 21 SEDAN + 19 SUV = 40 consumed in 0.785 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 58 SEDAN + 38 SUV = 96 in 0.785 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.786 s, queue size: 0, total finished: 78
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.804 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 28 SEDAN + 13 SUV = 41 consumed in 0.804 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 59 SEDAN + 38 SUV = 97 in 0.804 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.804 s, queue size: 0, total finished: 79
+Paint_conveyor: produced and added AquaCoatSUV in 0.805 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. AquaCoat consumed Sedan body.  AquaCoat totals: 22 SEDAN + 19 SUV = 41 consumed in 0.805 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.806 s, queue size: 0, total finished: 80
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 60 SEDAN + 38 SUV = 98 in 0.808 s.
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.824 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 29 SEDAN + 13 SUV = 42 consumed in 0.824 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.824 s, queue size: 0, total finished: 81
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added Sedan body. Produced: 61 SEDAN + 38 SUV = 99 in 0.824 s.
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.825 s, queue size: 1
+Body_conveyor: 10 SEDAN + 5 SUV = 15. AquaCoat consumed SUV body.  AquaCoat totals: 22 SEDAN + 20 SUV = 42 consumed in 0.825 s.
+Body_conveyor: 10 SEDAN + 6 SUV = 16. Added SUV body. Produced: 61 SEDAN + 39 SUV = 100 in 0.825 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.826 s, queue size: 0, total finished: 82
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.844 s, queue size: 1
+Body_conveyor: 9 SEDAN + 6 SUV = 15. PrimeSpray consumed Sedan body.  PrimeSpray totals: 30 SEDAN + 13 SUV = 43 consumed in 0.844 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.844 s, queue size: 0, total finished: 83
+Paint_conveyor: produced and added AquaCoatSUV in 0.845 s, queue size: 1
+Body_conveyor: 8 SEDAN + 6 SUV = 14. AquaCoat consumed Sedan body.  AquaCoat totals: 23 SEDAN + 20 SUV = 43 consumed in 0.845 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.846 s, queue size: 0, total finished: 84
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.864 s, queue size: 1
+Body_conveyor: 7 SEDAN + 6 SUV = 13. PrimeSpray consumed Sedan body.  PrimeSpray totals: 31 SEDAN + 13 SUV = 44 consumed in 0.864 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.864 s, queue size: 0, total finished: 85
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.865 s, queue size: 1
+Body_conveyor: 7 SEDAN + 5 SUV = 12. AquaCoat consumed SUV body.  AquaCoat totals: 23 SEDAN + 21 SUV = 44 consumed in 0.865 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.867 s, queue size: 0, total finished: 86
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.885 s, queue size: 1
+Body_conveyor: 6 SEDAN + 5 SUV = 11. PrimeSpray consumed Sedan body.  PrimeSpray totals: 32 SEDAN + 13 SUV = 45 consumed in 0.885 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.885 s, queue size: 0, total finished: 87
+Paint_conveyor: produced and added AquaCoatSUV in 0.885 s, queue size: 1
+Body_conveyor: 6 SEDAN + 4 SUV = 10. AquaCoat consumed SUV body.  AquaCoat totals: 23 SEDAN + 22 SUV = 45 consumed in 0.885 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.887 s, queue size: 0, total finished: 88
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.905 s, queue size: 1
+Body_conveyor: 5 SEDAN + 4 SUV = 9. PrimeSpray consumed Sedan body.  PrimeSpray totals: 33 SEDAN + 13 SUV = 46 consumed in 0.905 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.905 s, queue size: 0, total finished: 89
+Paint_conveyor: produced and added AquaCoatSUV in 0.905 s, queue size: 1
+Body_conveyor: 5 SEDAN + 3 SUV = 8. AquaCoat consumed SUV body.  AquaCoat totals: 23 SEDAN + 23 SUV = 46 consumed in 0.905 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.907 s, queue size: 0, total finished: 90
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.925 s, queue size: 1
+Body_conveyor: 4 SEDAN + 3 SUV = 7. PrimeSpray consumed Sedan body.  PrimeSpray totals: 34 SEDAN + 13 SUV = 47 consumed in 0.925 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.925 s, queue size: 0, total finished: 91
+Paint_conveyor: produced and added AquaCoatSUV in 0.925 s, queue size: 1
+Body_conveyor: 4 SEDAN + 2 SUV = 6. AquaCoat consumed SUV body.  AquaCoat totals: 23 SEDAN + 24 SUV = 47 consumed in 0.925 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.927 s, queue size: 0, total finished: 92
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.945 s, queue size: 1
+Body_conveyor: 3 SEDAN + 2 SUV = 5. PrimeSpray consumed Sedan body.  PrimeSpray totals: 35 SEDAN + 13 SUV = 48 consumed in 0.945 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.945 s, queue size: 0, total finished: 93
+Paint_conveyor: produced and added AquaCoatSUV in 0.945 s, queue size: 1
+Body_conveyor: 3 SEDAN + 1 SUV = 4. AquaCoat consumed SUV body.  AquaCoat totals: 23 SEDAN + 25 SUV = 48 consumed in 0.945 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.947 s, queue size: 0, total finished: 94
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.965 s, queue size: 1
+Body_conveyor: 2 SEDAN + 1 SUV = 3. PrimeSpray consumed Sedan body.  PrimeSpray totals: 36 SEDAN + 13 SUV = 49 consumed in 0.965 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.965 s, queue size: 0, total finished: 95
+Paint_conveyor: produced and added AquaCoatSUV in 0.965 s, queue size: 1
+Body_conveyor: 1 SEDAN + 1 SUV = 2. AquaCoat consumed Sedan body.  AquaCoat totals: 24 SEDAN + 25 SUV = 49 consumed in 0.965 s.
+Paint_conveyor: removed and finished AquaCoatSUV in 0.967 s, queue size: 0, total finished: 96
+Paint_conveyor: produced and added PrimeSpraySEDAN in 0.985 s, queue size: 1
+Body_conveyor: 0 SEDAN + 1 SUV = 1. PrimeSpray consumed Sedan body.  PrimeSpray totals: 37 SEDAN + 13 SUV = 50 consumed in 0.985 s.
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 0.985 s, queue size: 0, total finished: 97
+Paint_conveyor: produced and added AquaCoatSEDAN in 0.985 s, queue size: 1
+Body_conveyor: 0 SEDAN + 0 SUV = 0. AquaCoat consumed SUV body.  AquaCoat totals: 24 SEDAN + 26 SUV = 50 consumed in 0.985 s.
+Paint_conveyor: removed and finished AquaCoatSEDAN in 0.987 s, queue size: 0, total finished: 98
+Paint_conveyor: produced and added PrimeSpraySEDAN in 1.005 s, queue size: 1
+Paint_conveyor: removed and finished PrimeSpraySEDAN in 1.005 s, queue size: 0, total finished: 99
+Paint_conveyor: produced and added AquaCoatSUV in 1.006 s, queue size: 1
+Paint_conveyor: removed and finished AquaCoatSUV in 1.007 s, queue size: 0, total finished: 100
+
+CAR ASSEMBLY REPORT
+----------------------------------------
+Sedan body producer generated 61 bodies
+SUV body producer generated 39 bodies
+AquaCoat consumed 24 SEDAN + 26 SUV = 50 total
+PrimeSpray consumed 37 SEDAN + 13 SUV = 50 total
+Elapsed time 1.010 s
