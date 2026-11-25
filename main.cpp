@@ -1,7 +1,12 @@
 #include <cstdlib>
 #include <unistd.h> 
 #include <iostream>
+
 #include "shared.h"
+#include "conveyor.h"
+#include "producer.h"
+#include "consumer.h"
+#include "log.h"
 
 using namespace std;
 
@@ -53,12 +58,55 @@ int main(int argc, char **argv) {
 
     }
 
-    // test for parsing
-    cout << "n=" << carLimit << " s=" << sedanWeldTime << " u=" << suvWeldTime 
-        << " a=" << aquaCoatTime << " p=" << primeSprayTime 
-        << " f=" << finalLineTime << endl;
+    // Shared data is set up before any threading begins
 
+    SharedData sharedData; 
+    sharedData.carLimit = carLimit;
 
-    exit(NORMAL_EXIT);
+    initBodyConveyor(&sharedData.bodyConveyor, carLimit);
+    initPaintConveyor(&sharedData.paintConveyor);
+    sem_init(&sharedData.allDone, 0, 0);
+
+    // For each painter, takes count of each body type consumed
+    unsigned int *consumed[PaintRobotTypeN];
+    for(int robot = 0; robot < PaintRobotTypeN; robot++) {
+
+        consumed[robot] = new unsigned int [BodyTypeN];
+
+        for(int type = 0; type < BodyTypeN; type ++) {
+            consumed[robot][type] = 0;
+        }
+    }
+
+    // For each thread -> it gets shared data + settings
+    WelderArgs sedanArgs = {&sharedData, Sedan, sedanWeldTime};
+    WelderArgs suvArgs = {&sharedData, SUV, suvWeldTime};
+
+    PainterArgs aquaCoatArgs = {&sharedData, AquaCoat, aquaCoatTime, consumed[AquaCoat]};
+    PainterArgs primeSprayArgs = {&sharedData, PrimeSpray, primeSprayTime, consumed[PrimeSpray]};
+
+    FinalLineArgs finalArgs = {&sharedData, finalLineTime};
+
+    pthread_t sedanThread, suvThread, aquaThread, primeThread, finalThread;
+
+    // starting all threads condition
+    if(pthread_create(&sedanThread, NULL, &weldr, &sedanArgs) ||
+        pthread_create(&suvThread, NULL, &weldr, &suvArgs) ||
+        pthread_create(&aquaThread, NULL, &painter, &aquaCoatArgs) ||
+        pthread_create(&primeThread, NULL, &painter, &primeSprayArgs) ||
+        pthread_create(&finalThread, NULL, &finalLine, &finalArgs)) {
+
+            exit(THREAD_ERROR);
+    }
+
+    // waiting for FinalLine to finish the last car
+    sem_wait(&sharedData.allDone);
+    log_body_history(sharedData.bodyConveyor.produced, consumed);
+
+    for(int robot = 0; robot < PaintRobotTypeN; robot++) {
+        delete [] consumed[robot]; // free the count arrays (per painter)
+    }
+
+    exit(NORMAL_EXIT); // Hooray
 
 }

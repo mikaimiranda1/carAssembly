@@ -8,7 +8,7 @@ PROGRAM = carassembly
 $(PROGRAM) : $(OBJS)
 	$(CXX) -o $(PROGRAM) $(OBJS) $(LDFLAGS)
 
-main.o : main.cpp shared.h
+main.o : main.cpp shared.h conveyor.h producer.h consumer.h log.h
 	$(CXX) $(CXXFLAGS) main.cpp
 
 log.o : log.cpp log.h car_assembly.h
